@@ -1,0 +1,5 @@
+Flask==2.2.3
+transformers==4.27.4
+torch>=1.10.0
+PyPDF2==3.0.1
+python-docx==0.8.11

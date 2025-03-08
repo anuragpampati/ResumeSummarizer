@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Resume Summarizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Resume Summarizer</h1>
+    <form id="uploadForm">
+      <label for="resumeFile">Upload Resume (PDF/DOCX):</label><br /><br />
+      <input type="file" id="resumeFile" name="resume" accept=".pdf,.doc,.docx" required />
+      <button type="submit">Summarize</button>
+    </form>
+    <div id="summaryContainer"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

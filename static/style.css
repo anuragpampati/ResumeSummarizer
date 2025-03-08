@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  .container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #summaryContainer {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    white-space: pre-line;
+  }
+  
