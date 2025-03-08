@@ -3,10 +3,9 @@ from transformers import pipeline
 import os
 import PyPDF2
 import docx
-from flask_cors import CORS
 
-app = Flask(__name__, static_folder='static')
-CORS(app)  # Enable cross-origin requests (if needed for external front-ends)
+
+app = Flask(__name__, static_folder='static')# Enable cross-origin requests (if needed for external front-ends)
 
 # 1. Initialize the summarizer (download model if not present)
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
